@@ -39,5 +39,17 @@ public class Main {
 ### Student.java
 
 ```
+public class Student {
+  String name;
+  int age;
+  int grade;
 
+  public boolean checkGrade() {
+    if (this.grade >= 75) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+}
 ```
