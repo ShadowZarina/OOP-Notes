@@ -3,14 +3,16 @@ The foundational design principles required for building robust, modular, and ma
 
 1. Encapsulation
 - Building data & methods into a SINGLE UNIT while restricting direct access to internal states using private access modifiers
-- **Benefit**: Protects data integirty and prevents unintended side effects by forcing interaction through public getters/setters
+- **Benefit**: Protects data integirty and prevents unintended side effects by forcing interaction through *public getters/setters*
 
 2. Abstraction
 - Hiding complex internal implementation details and exposing only the essential interface needed to use the object
 - **Benefit**: Reduces cognitive complexity. Users call drive() without needing to understand engine combustion mechanics
 
 3. Inheritance
-- 
+- Allows a CHILD class (subclass) to inherit attributes & mmethods from a PARENT class (superclass) using keywords like *extends*
+- **Benefit**: Eliminiates code duplication and creates logical hierarchy relationships (eg. Dog inherits from Animal)
 
 4. Polymorphism
-- 
+- Enables a single interface/method call to behave differently depending on the specific object invoking it ("*Many Forms*")
+- **Benefit**: Facilitates flexibility through method *overriding and overloading* (eg. animal.makeSound())
