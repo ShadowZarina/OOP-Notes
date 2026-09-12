@@ -22,3 +22,14 @@ The foundational design principles required for building robust, modular, and ma
 ## Main.java
 
 ## Car.java
+
+```
+public class Car {
+  int wheelType = 4;
+  String make = "Toyota";
+  String model = "Avanza";
+
+  void startCar() {
+    System.out.println("CAR STARTED!");
+  }
+}
