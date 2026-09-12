@@ -23,6 +23,8 @@ The foundational design principles required for building robust, modular, and ma
 
 ## Car.java
 
+Class with Pre-Defined Values
+
 ```
 public class Car {
   int wheelType = 4;
@@ -33,3 +35,18 @@ public class Car {
     System.out.println("CAR STARTED!");
   }
 }
+```
+Class with Attributes Only
+```
+public class Car {
+  int wheelType;
+  String make;
+  String model;
+  boolean isRunning;
+
+  void startCar() {
+    System.out.println("CAR STARTED!");
+    this.isRunning = true; // sets the value for all objects
+  }
+}
+```
