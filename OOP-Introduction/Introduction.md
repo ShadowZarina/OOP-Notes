@@ -19,7 +19,33 @@ The foundational design principles required for building robust, modular, and ma
 
 # ACTIVITY
 
+> Java (Version) 26 is needed to run void main with outputs. Java 22 requires public class and public static void.
+
 ## Main.java
+
+public class Main {
+  public static void main(String[] args) {
+    Car car1 = new Car();
+    Car car2 = new Car();
+
+    car1.make = "Porsche";
+    car1.model = "911";
+    car1.isRunning = false;
+    System.out.println(car1.make);
+    System.out.println(car1.model);
+    System.out.println(car1.isRunning);
+    car1.startCar();
+
+    car2.make = "Ford";
+    car2.model = "Mustang"; // if undeclared, default value is null
+    car2.isRunning = false; // default value is false
+    System.out.println(car2.make);
+    System.out.println(car2.model);
+    System.out.println(car2.isRunning);
+    car2.startCar();
+    System.out.println("Is Car 2 running? " + car2.isRunning);
+  }
+}
 
 ## Car.java
 
