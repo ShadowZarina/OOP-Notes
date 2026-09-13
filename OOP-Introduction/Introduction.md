@@ -1,3 +1,32 @@
+# I. History of OOP
+
+## 1960s-70s: The OOP Pioneers
+
+### Foundations of Object Thinking
+
+**Simula 67 (Norway, 1967)**
+- Developed by Ole-Johan Dahl & Kristen Nygaard at the Norwegian Computing Center for physical simulations
+- Introduced classes, objects, and inheritance for the very first time
+
+**Smalltalk (Xerox PARC, 1970s)**
+- Created by Alan Kay, Dan Ingalls, and Adele Goldberg
+- Alan Kay coined the term *"Object-Oriented Programming"*
+- Smalltalk treated everything as an object that communicates strictly via message passing
+
+## The Evolution Timeline of OOP
+
+1967: Simula 67
+- First language with classes, objects, and subclasses created in Norway
+
+1972: Smalltalk
+- Alan Kay coins "OOP"
+- Pure object model based on message passing
+
+1985: C++
+- Stroustrup merges C performance with OOP concepts for enterprise systems
+
+1995: Java
+- Cross-platform bytecode execution solidifies OOP as the global paradigm
 
 # II. Paradigms & Core Concepts
 Understanding how Object-Oriented Programming fundamentally restructures logic compared to procedural models.
@@ -17,7 +46,8 @@ Understanding how Object-Oriented Programming fundamentally restructures logic c
 - Highly modular, reusable, and extendable
 
 ## Classes and Objects
-**Blueprint vs Instance**
+
+### Blueprint vs Instance
 - **Class**: A conceptual blueprint or template that defines what properties (attributes) and actions (methods) an object will have
 - **Object**: A concrete instance created in memory from a class, holding actual data values.
 
@@ -25,6 +55,17 @@ Understanding how Object-Oriented Programming fundamentally restructures logic c
 Student { String name; int age; }
 Student s1 = new Student();
 ```
+
+## Attributes, Methods & Constructors
+
+### Attributes
+- Variables declared inside a class that hold an object's internal state (eg. name, age, gpa)
+
+### Methods
+- Functions defined inside a class that dictate what actions/behaviors an object can perform (eg. study())
+
+### Constructors
+- Special initialization routines executed automatically when an object is instantiated via new
 
 # III. The Four Pillars of OOP
 The foundational design principles required for building robust, modular, and maintainable software systems.
