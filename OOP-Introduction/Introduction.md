@@ -4,14 +4,27 @@ Understanding how Object-Oriented Programming fundamentally restructures logic c
 
 ## Procedural vs. Object-Oriented
 
-PROCEDURAL PROGRAMMING
+**PROCEDURAL PROGRAMMING**
 - Functions and sequence of execution steps
 - Data and functions are kept separate
 - Global state easily modified by any function
 - Harder to maintain as programs grow large
 
-OBJECT-ORIENTED PROGRAMMING
-- 
+**OBJECT-ORIENTED PROGRAMMING**
+- Objects that bundle data and behavior
+- Data is encapsulated inside objects
+- Controlled access via encapsulation modifiers
+- Highly modular, reusable, and extendable
+
+## Classes and Objects
+**Blueprint vs Instance**
+- **Class**: A conceptual blueprint or template that defines what properties (attributes) and actions (methods) an object will have
+- **Object**: A concrete instance created in memory from a class, holding actual data values.
+
+```
+Student { String name; int age; }
+Student s1 = new Student();
+```
 
 # III. The Four Pillars of OOP
 The foundational design principles required for building robust, modular, and maintainable software systems.
