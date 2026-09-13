@@ -1,3 +1,18 @@
+
+# II. Paradigms & Core Concepts
+Understanding how Object-Oriented Programming fundamentally restructures logic compared to procedural models.
+
+## Procedural vs. Object-Oriented
+
+PROCEDURAL PROGRAMMING
+- Functions and sequence of execution steps
+- Data and functions are kept separate
+- Global state easily modified by any function
+- Harder to maintain as programs grow large
+
+OBJECT-ORIENTED PROGRAMMING
+- 
+
 # III. The Four Pillars of OOP
 The foundational design principles required for building robust, modular, and maintainable software systems.
 
